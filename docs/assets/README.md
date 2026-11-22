@@ -24,6 +24,9 @@
 | `ch07-apps.png` | 07 应用服务 |
 | `ch08-advanced.png` | 08 进阶主题 |
 | `ch09-cases.png` | 09 实战案例 |
+| `ch10-app-map.png` | 10 自托管应用图谱 |
+| `ch11-pve.png` | 11 PVE 底层方案 |
+| `ch12-homelab.png` | 12 Homelab 实战样板 |
 
 ## 目录结构
 

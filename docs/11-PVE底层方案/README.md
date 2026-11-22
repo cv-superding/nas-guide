@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/images/ch08-advanced.png" alt="小机器人园丁在照料服务器花园" width="300">
+  <img src="../assets/images/ch11-pve.png" alt="PVE 宿主机承载多台虚拟机" width="300">
 </p>
 
 # 11 Proxmox VE 底层方案：把 NAS 装进虚拟机

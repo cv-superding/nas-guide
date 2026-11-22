@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/images/ch07-apps.png" alt="家庭影院与各种自托管服务" width="300">
+  <img src="../assets/images/ch10-app-map.png" alt="应用图谱：一台 NAS 连接各种服务" width="300">
 </p>
 
 # 10 自托管应用图谱：这台机器还能装什么

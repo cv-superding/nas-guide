@@ -103,7 +103,7 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 
 ## 五、配图说明
 
-本仓库 `docs/assets/images/` 下的 10 张手绘水彩风格插画，是为本指南专门生成的原创配图（温暖故事书风格，刻意避开生硬的技术示意图感），用于让阅读体验更柔和。
+本仓库 `docs/assets/images/` 下的 13 张手绘水彩风格插画，是为本指南专门生成的原创配图（温暖故事书风格，刻意避开生硬的技术示意图感），覆盖 00～12 章，用于让阅读体验更柔和。
 
 `docs/assets/diagrams/` 下的 `.mmd` 文件是 Mermaid 图示源码，为正文中流程图、架构图的文本版本，便于修改与版本管理。
 

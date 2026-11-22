@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/images/ch09-cases.png" alt="四个温暖的场景拼在一起" width="300">
+  <img src="../assets/images/ch12-homelab.png" alt="从别人的配置蓝图学组织思路" width="300">
 </p>
 
 # 12 Homelab 实战样板：看看别人怎么组织
