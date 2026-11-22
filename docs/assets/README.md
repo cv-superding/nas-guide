@@ -29,12 +29,17 @@
 | `ch12-homelab.png` | 12 Homelab 实战样板 |
 | `ch13-data-advanced.png` | 13 数据保护进阶 |
 
+### 实操截图（`screenshots/`）
+
+`images/` 放的是原创装饰插画，而 `screenshots/` 放的是**取自真实教程的实操界面截图**——飞牛安装向导、初始化界面、硬盘测速、应用中心、Paperless 部署等。这些图在正文对应步骤出现，来源与版权见 [CREDITS 的图片来源声明](../../CREDITS.md)。
+
 ## 目录结构
 
 ```
 docs/assets/
-├── images/      # 手绘配图（png）
-└── diagrams/    # Mermaid 图示源码（.mmd）
+├── images/        # 原创手绘配图（png）
+├── screenshots/   # 取自教程的实操界面截图
+└── diagrams/      # Mermaid 图示源码（.mmd）
 ```
 
 > 💡 配图放在 `docs/` 目录下，是为了让 MkDocs 能把它一起打包进文档站点——否则 GitHub 上能看到图，网页版却是坏图。

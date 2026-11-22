@@ -36,13 +36,19 @@
 - ✍️ **学完就能动手验**：每章都有练习和验收清单，做没做对一目了然
 - 🇨🇳 **为中文用户写的**：国内网络、本土应用、真实场景，不是翻译腔
 
-## 三张配图，先看个大概
+## 先看几张图
+
+既有柔和的示意插画，也有取自真实教程的**实操界面截图**——跟着图做，比看文字靠谱。
 
 | 场景 | 图 |
 | --- | --- |
 | 认识 NAS：数据不再东一块西一块 | <img src="docs/assets/images/ch01-know-nas.png" alt="数据散落各处" width="120"> |
-| 选平台：七位"选手"坐下来聊聊 | <img src="docs/assets/images/ch03-platforms.png" alt="七大平台对比" width="120"> |
-| 应用服务：家里的影院、相册、AI 都在这台小盒子里 | <img src="docs/assets/images/ch07-apps.png" alt="家庭应用服务" width="120"> |
+| 飞牛 fnOS 安装向导（官方截图） | <img src="docs/assets/screenshots/fnos-install-disk.png" alt="飞牛安装选盘" width="120"> |
+| 飞牛 NAS 桌面（真实界面） | <img src="docs/assets/screenshots/fnos-desktop.png" alt="飞牛桌面" width="120"> |
+| 硬盘基准测试实测 | <img src="docs/assets/screenshots/disk-benchmark.jpg" alt="硬盘测速" width="120"> |
+| Paperless 部署界面 | <img src="docs/assets/screenshots/paperless-portainer-3.png" alt="Paperless 界面" width="120"> |
+
+> 截图来自 [飞牛官方帮助中心](https://help.fnnas.com/)、[NEBULA](https://ooppll.icu/)、[Lycoris](https://lycoris.cloud/)、[Marius Hosting](https://mariushosting.com/) 等优质教程，完整来源见 [致谢](CREDITS.md)。
 
 ## 怎么读这本书
 

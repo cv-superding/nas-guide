@@ -2,6 +2,18 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.5.0] - 2026-11-23
+
+### 变更（图片体系重构）
+- 引入 15 张来自优质教程的**真实实操截图**（飞牛官方安装/初始化向导、硬盘基准测试、飞牛桌面与应用中心、Paperless/Portainer 部署界面、硬件对比）
+- 移除 63 个小节顶部雷同的手绘图，手绘图只在章节概览保留；每张截图只用在最相关的一处
+- 首页 README 改为展示真实截图
+- 图片来源声明如实标注每张截图出处、版权归原作者、仅作教学引用
+
+### 为什么要改
+- 之前全是自己生成的示意插画，缺少真实操作界面，且重复引用严重
+- 本项目定位是"汇总 + 改写"，应当善用社区优秀教程的截图并注明来源
+
 ## [0.4.1] - 2026-11-23
 
 ### 新增
@@ -62,7 +74,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.4.1...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/cv-superding/nas-guide/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/cv-superding/nas-guide/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/cv-superding/nas-guide/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/cv-superding/nas-guide/compare/v0.2.0...v0.3.0

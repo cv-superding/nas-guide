@@ -136,20 +136,33 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 
 `docs/assets/diagrams/` 下的 `.mmd` 文件，以及正文中大量的 Mermaid 代码块，都是**纯文本绘制的流程图/架构图**，由本项目原创编写。它们可版本管理、可 diff、便于修改，遵循本仓库 MIT 许可证。
 
-### 5.3 关于网络上的图片
+### 5.3 实操界面截图（来自社区教程）
 
-你可能会问：既然参考了这么多网上教程，为什么不直接拿它们的截图/配图？
+这份指南是"汇总 + 改写"，所以**真实的软件界面截图，我们直接取自优质的开源教程**，而不是自己凭空画——毕竟教程的价值就在于"看到真实界面，跟着做"。
 
-原因是**版权与合规**：多数博客截图、文章配图的版权归原作者，仅仅"致谢"并不等于获得授权。为了让这份指南可以自由开源分享，我们采取的做法是：
+所有截图都存放在 `docs/assets/screenshots/`，并在正文对应位置标注了来源。版权归各自原作者/项目所有，本项目仅作**教学与非商业用途**引用，并尽可能指向原文。若某位作者不希望其图片被引用，请提 Issue，我们会立即移除。
 
-1. **配图**：全部原创生成，不直接复制他人的图片
-2. **示意图**：用 Mermaid 重新绘制，而不是搬运别人的图
-3. **外部教程**：以**链接引用**的方式标注来源（见上面各节），正文内容用自己的话重新组织，不整段照搬
-4. **官方素材**：如确需引用项目 Logo 等，应遵循各项目的商标/素材使用规范，并标注来源
+| 截图 | 来源 | 版权/用途 |
+| --- | --- | --- |
+| `fnos-install-*.png`（4 张安装向导） | [飞牛官方帮助中心](https://help.fnnas.com/articles/v1/start/install-os) | © 飞牛 fnOS，官方安装文档截图 |
+| `fnos-init-*.jpg`（3 张初始化向导） | [飞牛官方帮助中心](https://help.fnnas.com/articles/v1/start/install-os) | © 飞牛 fnOS，官方初始化文档截图 |
+| `disk-benchmark.jpg`（SSD 基准测试） | [NEBULA（ooppll.icu）](https://ooppll.icu/) | © NEBULA 作者，教学引用 |
+| `hardware-compare.webp`（硬件方案对比） | [fnnas.wiki](https://fnnas.wiki/) | © fnnas.wiki 作者，教学引用 |
+| `fnos-desktop.png` / `fnos-appstore.webp` | [Lycoris 的小破站](https://lycoris.cloud/archives/019eda7f-15b1-743e-9aab-d0ee8999b0a5) | © Lycoris，教学引用 |
+| `paperless-portainer-*.png`（3 张）/ `paperless-stack*.png`（2 张） | [Marius Hosting](https://mariushosting.com/how-to-install-paperless-ngx-on-your-synology-nas/) | © Marius Hosting，教学引用 |
 
-如果你发现本仓库某张图确实来自第三方且未妥善处理，请提 Issue，我们会立即核实、替换或补充授权说明。
+> 💡 我们尽量减少重复截图，每张图只在最相关的位置用一次。宁可少而准，不要多而乱。
 
-### 5.4 第三方品牌与商标
+### 5.4 关于图片使用的原则
+
+1. **装饰性配图**：自己生成（见 5.1），风格统一、无版权负担
+2. **流程图/架构图**：用 Mermaid 重绘（见 5.2），纯文本可维护
+3. **实操界面**：取自优质教程并标注来源（见 5.3），因为真实界面最有价值
+4. **正文内容**：用自己的话重新组织，不整段照搬，并标注来源链接
+
+如果你发现本仓库某张图来源标注有误或涉及授权问题，请提 Issue，我们会立即核实、替换或补充授权说明。
+
+### 5.5 第三方品牌与商标
 
 文中提及的群晖、威联通、TrueNAS、CasaOS、飞牛 fnOS 等产品名称与 Logo 归各自所有者所有。本指南仅为教学目的提及，不构成背书或商业使用。
 
