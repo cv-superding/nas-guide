@@ -57,4 +57,6 @@ docs/assets/
 - 风格尽量与现有配图协调：温暖、柔和、故事感
 - 单图控制在合理大小（建议 < 500KB）
 
-详见 [贡献指南](../../CONTRIBUTING.md) 与 [致谢](../../CREDITS.md)。
+这份指南参考了很多前辈和同好的资料，完整清单见仓库根目录的 [CREDITS.md（致谢与来源）](https://github.com/cv-superding/nas-guide/blob/main/CREDITS.md)。
+
+详见 [贡献指南](../../CONTRIBUTING.md)。

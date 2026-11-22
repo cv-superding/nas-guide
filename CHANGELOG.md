@@ -2,12 +2,23 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
-## [Unreleased]
+## [0.2.0] - 2026-11-22
 
-### 计划中
-- 补充 OpenMediaVault 平台章节（响应社区反馈）
-- 增加硬盘噪音与功耗实测数据
-- 制作配套视频脚本
+### 变更（内容重构）
+- 全文从"模板化 AI 腔"重构为自然、叙事、有生活气息的表达：00～09 章所有概览页 + 40+ 个核心小节重写
+- 模板标题统一自然化：`本章目标`→`这一节能帮你`、`小结`→`写在最后`、`前置`→`先读` 等
+- 新增 10 张统一风格的手绘水彩配图，覆盖全部内容页；图文结合，避免纯文字堆砌
+- 修复文档站点配图失效问题：配图移入 `docs/assets/images/`，批量修正 65 个文件的引用路径
+
+### 新增
+- [致谢与来源 CREDITS.md](CREDITS.md)：分类致谢官方文档、中文社区（fnnas.wiki、NEBULA、数巢笔记、飞牛论坛等）、英文理念文章（Big Iron、safeguard.sh 等）与高星教学项目的组织思路
+- [新人避坑指南](docs/00-前言/新人避坑指南.md)：硬件/安装/数据/安全/Docker/心态六类共 12 个高频坑
+- [一周上手计划](docs/00-前言/一周上手计划.md)：把章节串成七天可执行路线
+- 正文中就地标注引用来源，读者可追溯
+
+### 技术
+- 分 20+ 次独立提交迭代，每次提交主题明确、可追溯
+- MkDocs 严格模式构建持续通过
 
 ## [0.1.0] - 2026-11-22
 
@@ -19,5 +30,6 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/cv-superding/nas-guide/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/cv-superding/nas-guide/releases/tag/v0.1.0
