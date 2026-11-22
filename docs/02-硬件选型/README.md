@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch02-hardware.png" alt="工作台上正在组装的旧电脑" width="320">
+  <img src="../assets/images/ch02-hardware.png" alt="工作台上正在组装的旧电脑" width="320">
 </p>
 
 # 02 挑硬件：别让预算花错地方

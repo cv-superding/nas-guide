@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/cover-home-nas.png" alt="一个温暖客厅里的 NAS，照片、音乐与猫围绕在旁" width="520">
+  <img src="docs/assets/images/cover-home-nas.png" alt="一个温暖客厅里的 NAS，照片、音乐与猫围绕在旁" width="520">
 </p>
 
 # NAS 入门指南
@@ -40,9 +40,9 @@
 
 | 场景 | 图 |
 | --- | --- |
-| 认识 NAS：数据不再东一块西一块 | <img src="assets/images/ch01-know-nas.png" alt="数据散落各处" width="120"> |
-| 选平台：六位"选手"坐下来聊聊 | <img src="assets/images/ch03-platforms.png" alt="六大平台对比" width="120"> |
-| 应用服务：家里的影院、相册、AI 都在这台小盒子里 | <img src="assets/images/ch07-apps.png" alt="家庭应用服务" width="120"> |
+| 认识 NAS：数据不再东一块西一块 | <img src="docs/assets/images/ch01-know-nas.png" alt="数据散落各处" width="120"> |
+| 选平台：六位"选手"坐下来聊聊 | <img src="docs/assets/images/ch03-platforms.png" alt="六大平台对比" width="120"> |
+| 应用服务：家里的影院、相册、AI 都在这台小盒子里 | <img src="docs/assets/images/ch07-apps.png" alt="家庭应用服务" width="120"> |
 
 ## 怎么读这本书
 
@@ -146,7 +146,7 @@ mkdocs serve
 ---
 
 <p align="center">
-  <img src="assets/images/ch05-data-safety.png" alt="被妥善保护的照片与回忆" width="220">
+  <img src="docs/assets/images/ch05-data-safety.png" alt="被妥善保护的照片与回忆" width="220">
   <br>
   <em>愿你家的数据，都像这张图一样，被温柔地收好。</em>
 </p>

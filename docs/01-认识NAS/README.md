@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch01-know-nas.png" alt="数据散落在手机、电脑、网盘之间" width="320">
+  <img src="../assets/images/ch01-know-nas.png" alt="数据散落在手机、电脑、网盘之间" width="320">
 </p>
 
 # 01 认识 NAS：先把这道题看明白

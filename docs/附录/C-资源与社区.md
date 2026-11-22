@@ -1,7 +1,7 @@
 # C 资源与社区
 
 <p align="center">
-  <img src="../../assets/images/cover-home-nas.png" alt="随时回来翻查的工具箱" width="200">
+  <img src="../assets/images/cover-home-nas.png" alt="随时回来翻查的工具箱" width="200">
 </p>
 
 

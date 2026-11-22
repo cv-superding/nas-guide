@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch06-network.png" alt="在咖啡馆用手机看家里的照片" width="320">
+  <img src="../assets/images/ch06-network.png" alt="在咖啡馆用手机看家里的照片" width="320">
 </p>
 
 # 06 连上它：内网要快，外网要稳

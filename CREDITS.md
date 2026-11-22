@@ -1,7 +1,7 @@
 # 致谢与来源
 
 <p align="center">
-  <img src="assets/images/cover-home-nas.png" alt="温暖的 NAS 首页插画" width="360">
+  <img src="docs/assets/images/cover-home-nas.png" alt="温暖的 NAS 首页插画" width="360">
 </p>
 
 > 这份指南不是凭空长出来的。它站在很多人的肩膀上——有人写了详尽的安装教程，有人把踩过的坑一条条记下来，有人耐心解释 ZFS 是什么。这里向他们致谢。
@@ -63,9 +63,9 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 
 ## 五、配图说明
 
-本仓库 `assets/images/` 下的 10 张手绘水彩风格插画，是为本指南专门生成的原创配图（温暖故事书风格，刻意避开生硬的技术示意图感），用于让阅读体验更柔和。
+本仓库 `docs/assets/images/` 下的 10 张手绘水彩风格插画，是为本指南专门生成的原创配图（温暖故事书风格，刻意避开生硬的技术示意图感），用于让阅读体验更柔和。
 
-`assets/diagrams/` 下的 `.mmd` 文件是 Mermaid 图示源码，为正文中流程图、架构图的文本版本，便于修改与版本管理。
+`docs/assets/diagrams/` 下的 `.mmd` 文件是 Mermaid 图示源码，为正文中流程图、架构图的文本版本，便于修改与版本管理。
 
 ## 六、如果漏了谁
 
@@ -84,5 +84,5 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 ---
 
 <p align="center">
-  <img src="assets/images/ch09-cases.png" alt="四个温暖的家庭与办公场景" width="240">
+  <img src="docs/assets/images/ch09-cases.png" alt="四个温暖的家庭与办公场景" width="240">
 </p>

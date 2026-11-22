@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch03-platforms.png" alt="六位系统选手围坐一桌" width="320">
+  <img src="../assets/images/ch03-platforms.png" alt="六位系统选手围坐一桌" width="320">
 </p>
 
 # 03 选系统：六位选手，看看谁适合你

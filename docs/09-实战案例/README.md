@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch09-cases.png" alt="四个温暖的场景拼在一起" width="320">
+  <img src="../assets/images/ch09-cases.png" alt="四个温暖的场景拼在一起" width="320">
 </p>
 
 # 09 实战案例：把前面的知识，拼成一个成品

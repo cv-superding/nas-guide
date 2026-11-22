@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch08-advanced.png" alt="小机器人园丁在照料服务器花园" width="320">
+  <img src="../assets/images/ch08-advanced.png" alt="小机器人园丁在照料服务器花园" width="320">
 </p>
 
 # 08 进阶：从"会用"到"省心"

@@ -100,5 +100,5 @@
 
 - [示例 examples/](../examples/README.md)
 - [练习 exercises/](../exercises/README.md)
-- [图片与图示 assets/](../assets/README.md)
+- [图片与图示 assets/](assets/README.md)
 - [写作模板 templates/](../templates/README.md)

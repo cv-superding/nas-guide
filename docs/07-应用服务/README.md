@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch07-apps.png" alt="家庭影院场景，NAS 安静地 serving 着一切" width="320">
+  <img src="../assets/images/ch07-apps.png" alt="家庭影院场景，NAS 安静地 serving 着一切" width="320">
 </p>
 
 # 07 玩起来：让小盒子真正干活

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch04-first-build.png" alt="第一次开机成功，两个人轻轻击掌" width="320">
+  <img src="../assets/images/ch04-first-build.png" alt="第一次开机成功，两个人轻轻击掌" width="320">
 </p>
 
 # 04 第一次搭建：从通电到亮起绿灯

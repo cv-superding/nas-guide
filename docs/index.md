@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/images/cover-home-nas.png" alt="陪你从零开始搭一台 NAS" width="300">
+  <img src="assets/images/cover-home-nas.png" alt="陪你从零开始搭一台 NAS" width="300">
 </p>
 
 # 欢迎来到 NAS 入门指南

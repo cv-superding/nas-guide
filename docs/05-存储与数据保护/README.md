@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/images/ch05-data-safety.png" alt="三本相册、一个上锁的木盒和远处的小屋" width="320">
+  <img src="../assets/images/ch05-data-safety.png" alt="三本相册、一个上锁的木盒和远处的小屋" width="320">
 </p>
 
 # 05 守住数据：全书最重要的一章

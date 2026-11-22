@@ -39,8 +39,8 @@
 
 ### 配图
 
-- 图片统一放 `assets/images/`，文件名用英文短横线，如 `nas-overview.png`。
-- 示意图优先用 Mermaid 源码（放在 `assets/diagrams/`），便于版本管理与修改。
+- 图片统一放 `docs/assets/images/`，文件名用英文短横线，如 `nas-overview.png`。
+- 示意图优先用 Mermaid 源码（放在 `docs/assets/diagrams/`），便于版本管理与修改。
 - 截图注意打码个人信息（IP、序列号、账号）。
 
 ### 命令与配置
