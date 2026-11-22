@@ -57,6 +57,14 @@
 | [RAID Is Not a Backup（nasdecoded.com）](https://nasdecoded.com/raid-is-not-backup) | 大容量阵列重建期间的读取风险 | 2.3、5.2 关于大盘建议 RAID6 的解释 |
 | [RAID is not a backup: the 3-2-1 rule, honestly（chartmann1590）](https://chartmann1590.github.io/homelab-the-right-way/posts/raid-is-not-a-backup-3-2-1) | 一份找出备份缺口的自查清单 | 5.4 的"什么算一份拷贝"讨论 |
 | [Tailscale / WireGuard 官方文档](https://tailscale.com/kb/) | 组网 VPN 的原理与配置 | 6.2 远程访问方案对比 |
+| [Linux zfs 精通篇：调优与最佳实践（mickeylan）](http://mp.weixin.qq.com/s?__biz=MzYyMzk5ODAwMQ==&mid=2247485198&idx=1&sn=f8473888f5498899a0e18b3a5a088731) | "每 1TB 配 1GB ARC"、recordsize、压缩与去重的取舍 | 13.1 ZFS 调优 |
+| [ZFS on Linux: Six Months of Production Use（besterry.com）](https://besterry.com/posts/zfs-on-linux) | 半年生产使用经验：校验发现损坏文件、快照极快 | 13.1 的 ZFS 价值说明 |
+| [ZFS on a dedicated server（novogara.com）](https://www.novogara.com/kb/zfs) | send/receive 作为块级增量复制的说明 | 13.2 zfs send/recv |
+| [ZFS: CoW with Snapshots and RAID-Z（Hash Hackers）](https://blog.hashhackers.com/blog/zfs-guide) | zfs send/receive 全量与增量命令示例 | 13.2 的命令写法 |
+| [How to Optimize ZFS on Linux（YouStable）](https://www.youstable.com/blog/optimize-zfs-on-linux/) | 按用途设置 recordsize、compression、primarycache | 13.1 的调优参数表 |
+| [UPS Sizing Guide for Home Servers（selfhosting.sh）](https://selfhosting.sh/hardware/ups-sizing-calculator/) | 常见 UPS 机型在 85W/200W 下的续航参考 | 13.3 UPS 选型表 |
+| [Sizing a UPS and Setting Up NUT（rhomelab.com）](https://rhomelab.com/hardware/ups-sizing-and-nut-setup) | NUT 配置思路（ups.conf、nut-scanner） | 13.3 NUT 配置 |
+| [UPS Auto-Shutdown on Synology/QNAP（techfromalex.com）](https://techfromalex.com/ups-auto-shutdown-synology-qnap-nut) | 主/客户端 UPS 关系说明 | 13.3 多设备共用 UPS |
 
 ## 四、开源项目与教学项目
 
@@ -101,11 +109,46 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 
 这些项目的内容和文档各有千秋，本指南只是站在它们的思路之上做了自己的整理。若你尚未读过，强烈建议去看看原文、给它们点个星标。
 
-## 五、配图说明
+## 五、图片与素材来源声明
 
-本仓库 `docs/assets/images/` 下的 13 张手绘水彩风格插画，是为本指南专门生成的原创配图（温暖故事书风格，刻意避开生硬的技术示意图感），覆盖 00～12 章，用于让阅读体验更柔和。
+这一节说明本指南里所有图片、图示的来源与版权立场。我们尽量做到"每一张图都能说清来历"。
 
-`docs/assets/diagrams/` 下的 `.mmd` 文件是 Mermaid 图示源码，为正文中流程图、架构图的文本版本，便于修改与版本管理。
+### 5.1 配图（原创生成）
+
+`docs/assets/images/` 下的 **14 张手绘水彩风格插画**，是为本指南专门生成的原创配图，覆盖 00～13 章。它们采用温暖的故事书风格（刻意避开生硬的技术示意图感），用于让阅读体验更柔和，也让零基础读者不至于被冷冰冰的内容劝退。
+
+- 这些插画为本项目原创生成，**不含第三方素材**，右下角可能存在的生成工具标记已做技术处理去除
+- 你可以随本仓库的 MIT 许可证自由使用、修改这些配图
+
+| 配图 | 用于章节 |
+| --- | --- |
+| `cover-home-nas.png` | 封面、前言、附录 |
+| `ch01-know-nas.png` ～ `ch09-cases.png` | 01～09 章 |
+| `ch10-app-map.png` | 10 自托管应用图谱 |
+| `ch11-pve.png` | 11 PVE 底层方案 |
+| `ch12-homelab.png` | 12 Homelab 实战样板 |
+| `ch13-data-advanced.png` | 13 数据保护进阶 |
+
+### 5.2 图示（Mermaid 源码）
+
+`docs/assets/diagrams/` 下的 `.mmd` 文件，以及正文中大量的 Mermaid 代码块，都是**纯文本绘制的流程图/架构图**，由本项目原创编写。它们可版本管理、可 diff、便于修改，遵循本仓库 MIT 许可证。
+
+### 5.3 关于网络上的图片
+
+你可能会问：既然参考了这么多网上教程，为什么不直接拿它们的截图/配图？
+
+原因是**版权与合规**：多数博客截图、文章配图的版权归原作者，仅仅"致谢"并不等于获得授权。为了让这份指南可以自由开源分享，我们采取的做法是：
+
+1. **配图**：全部原创生成，不直接复制他人的图片
+2. **示意图**：用 Mermaid 重新绘制，而不是搬运别人的图
+3. **外部教程**：以**链接引用**的方式标注来源（见上面各节），正文内容用自己的话重新组织，不整段照搬
+4. **官方素材**：如确需引用项目 Logo 等，应遵循各项目的商标/素材使用规范，并标注来源
+
+如果你发现本仓库某张图确实来自第三方且未妥善处理，请提 Issue，我们会立即核实、替换或补充授权说明。
+
+### 5.4 第三方品牌与商标
+
+文中提及的群晖、威联通、TrueNAS、CasaOS、飞牛 fnOS 等产品名称与 Logo 归各自所有者所有。本指南仅为教学目的提及，不构成背书或商业使用。
 
 ## 六、如果漏了谁
 

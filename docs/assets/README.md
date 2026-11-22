@@ -27,6 +27,7 @@
 | `ch10-app-map.png` | 10 自托管应用图谱 |
 | `ch11-pve.png` | 11 PVE 底层方案 |
 | `ch12-homelab.png` | 12 Homelab 实战样板 |
+| `ch13-data-advanced.png` | 13 数据保护进阶 |
 
 ## 目录结构
 

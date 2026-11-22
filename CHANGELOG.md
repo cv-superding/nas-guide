@@ -2,6 +2,19 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.4.0] - 2026-11-23
+
+### 新增（进阶教程整合）
+- 第 13 章「数据保护进阶」：ZFS 调优（ARC/recordsize/压缩）、zfs send/recv 异地复制、UPS+NUT 断电保护
+- 正文标注来源链接，致谢页新增 8 篇进阶教程（ZFS 调优/USP 选型/NUT 配置等）
+
+### 图片与声明
+- 新增第 13 章原创配图，配图总数 14 张，全部去除生成工具水印
+- 致谢页新增「图片与素材来源声明」：配图原创、图示 Mermaid 原创、外部教程用链接引用而非搬运图片、第三方商标说明
+
+### 修复
+- 全部 14 张配图水印去除（纹理平移 + 精确 inpaint，因人而异选择方案）
+
 ## [0.3.0] - 2026-11-23
 
 ### 新增（参考 20+ 开源项目）
@@ -42,7 +55,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/cv-superding/nas-guide/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/cv-superding/nas-guide/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/cv-superding/nas-guide/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/cv-superding/nas-guide/releases/tag/v0.1.0
