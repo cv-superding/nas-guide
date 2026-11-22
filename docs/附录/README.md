@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/images/cover-home-nas.png" alt="随时回来翻查的工具箱" width="220">
+</p>
+
 # 附录：遇到问题，回来翻
 
 这一部分是给你"查"的，不用顺序读。

@@ -1,5 +1,10 @@
 # B 常见问题 FAQ
 
+<p align="center">
+  <img src="../../assets/images/cover-home-nas.png" alt="随时回来翻查的工具箱" width="200">
+</p>
+
+
 ## 选型类
 
 **Q：群晖和威联通选哪个？**

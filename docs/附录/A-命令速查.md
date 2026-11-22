@@ -1,5 +1,10 @@
 # A 命令速查
 
+<p align="center">
+  <img src="../../assets/images/cover-home-nas.png" alt="随时回来翻查的工具箱" width="200">
+</p>
+
+
 > ⚠️ 执行前请将占位符替换为实际值；破坏性操作请谨慎。
 
 ## 磁盘与文件系统

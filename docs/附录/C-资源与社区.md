@@ -1,5 +1,10 @@
 # C 资源与社区
 
+<p align="center">
+  <img src="../../assets/images/cover-home-nas.png" alt="随时回来翻查的工具箱" width="200">
+</p>
+
+
 > 只列渠道类型与查找方式，具体链接请自行搜索确认（项目不提供软件下载）。
 
 ## 官方文档（优先）

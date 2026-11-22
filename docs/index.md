@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/images/cover-home-nas.png" alt="陪你从零开始搭一台 NAS" width="300">
+</p>
+
 # 欢迎来到 NAS 入门指南
 
 > 从零开始的 NAS 搭建与自托管实践 · 面向中文读者 · 多平台横向对比
