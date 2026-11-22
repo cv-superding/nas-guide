@@ -80,6 +80,7 @@ extra:
 
 nav:
   - 首页: index.md
+  - 完整目录 SUMMARY: SUMMARY.md
   - 00 前言:
       - 概览: 00-前言/README.md
       - 如何使用本指南: 00-前言/如何使用本指南.md
