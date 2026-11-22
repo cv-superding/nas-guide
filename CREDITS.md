@@ -55,11 +55,23 @@
 | [RAID is not a backup: the 3-2-1 rule, honestly（chartmann1590）](https://chartmann1590.github.io/homelab-the-right-way/posts/raid-is-not-a-backup-3-2-1) | 一份找出备份缺口的自查清单 | 5.4 的"什么算一份拷贝"讨论 |
 | [Tailscale / WireGuard 官方文档](https://tailscale.com/kb/) | 组网 VPN 的原理与配置 | 6.2 远程访问方案对比 |
 
-## 四、开源项目
+## 四、开源项目与教学项目
 
 正是这些项目，让"自己搭一台 NAS"这件事变得可能。致谢它们，也鼓励读者去官方仓库点亮星标：
 
 CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、Transmission、Syncthing、Ollama、AnythingLLM、RAGFlow、Nginx Proxy Manager、Uptime Kuma、restic、borgbackup、fail2ban、Ansible、MkDocs Material。
+
+在**如何组织一套教程**这件事上，我们还参考了这些高星教学/文档项目的思路——按章节递进、读路径分层、图文结合、示例与练习配套：
+
+| 项目 | 我们借鉴的组织方式 |
+| --- | --- |
+| CasaOS / OpenMediaVault | 面向新手的平实表达、功能分块说明 |
+| TrueNAS 文档 | 概念先行、术语对照、按主题拆分章节 |
+| MoviePilot / getnas 等中文项目 | 中文场景化表达、本土应用说明 |
+| Ansible-NAS | "用代码定义配置"的自动化章节组织（见 8.2） |
+| openclaw-homelab-nas-guide 等 homelab 指南 | 从零到进阶的实战路径、多平台对比框架 |
+
+这些项目的内容和文档各有千秋，本指南只是站在它们的思路之上做了自己的整理。若你尚未读过，强烈建议去看看原文。
 
 ## 五、配图说明
 
