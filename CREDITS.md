@@ -26,6 +26,7 @@
 | Docker | [Docker Docs](https://docs.docker.com/) | 镜像/容器/卷/Compose 的核心概念 |
 | OpenZFS | OpenZFS Documentation | CoW、校验和、ARC、scrub 的解释 |
 | Ansible | Ansible Documentation | Playbook、inventory、幂等性说明 |
+| OpenMediaVault | [OpenMediaVault 官网](https://www.openmediavault.org/) | OMV 的定位、模块化设计、服务列表，见 3.8 |
 | Redis/Nextcloud/Jellyfin 等 | 各项目官方文档 | 应用部署要点与端口说明 |
 
 ## 二、中文社区与教程站点
@@ -39,6 +40,8 @@
 | [飞牛帮助中心](https://help.fnnas.com/articles/v1/start/install-os) | 安装与初始化官方指引 | 系统盘选择、BIOS/启动、初始化步骤 |
 | [数巢笔记（shunot.com）](https://www.shunot.com/nas/1000.html) | 旧笔记本改 NAS 的三个月实测 | "合盖休眠"等真实踩坑经验，见 3.7、2.4 |
 | [Lycoris 的小破站](https://lycoris.cloud/archives/019eda7f-15b1-743e-9aab-d0ee8999b0a5) | 从黑群晖到飞牛的折腾日记 | 装机过程的真实口吻、场景化表达 |
+| [小众软件论坛 OMV 7 入门指北](https://meta.appinn.net/t/topic/73193/4) | 中文 OMV 7 图文教程 | OMV 章节的安装、配置、问题解决组织方式，见 3.8 |
+| [悠哉网 OMV 指南](https://www.yoozai.com/21111.html) | OMV 设计哲学与插件/Docker 玩法 | "轻量、简洁、自由"的定位描述，见 3.8 |
 | [NEBULA（ooppll.icu）](https://ooppll.icu/) | 飞牛实践、SSD 基准测试、自托管 AI 生态的中文经验分享 | 新盘检测的"跑一遍基准"习惯、在 NAS 上跑本地模型的思路，见 2.2、5.5、7.5 |
 | [简米科技（idctop.com）](https://idctop.com/article/610259.html) | 旧电脑改 NAS 的硬件与安装说明 | 电源功率、启动盘、BIOS 设置的细节 |
 
