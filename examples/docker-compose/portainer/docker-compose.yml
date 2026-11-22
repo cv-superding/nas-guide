@@ -1,0 +1,18 @@
+# Portainer CE — 容器图形化管理
+# 参考文档：docs/14-热门应用实战/14.1-Portainer.md
+# ⚠️ docker.sock 映射等于授予宿主机 Docker 最高权限，仅在可信环境使用
+version: "3.8"
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${NAS_DATA:-/volume1/docker}/portainer:/data
+    ports:
+      - "9000:9000"   # HTTPS 管理界面
+      - "8000:8000"   # 初次设置用，设置后可移除

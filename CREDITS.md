@@ -65,6 +65,9 @@
 | [UPS Sizing Guide for Home Servers（selfhosting.sh）](https://selfhosting.sh/hardware/ups-sizing-calculator/) | 常见 UPS 机型在 85W/200W 下的续航参考 | 13.3 UPS 选型表 |
 | [Sizing a UPS and Setting Up NUT（rhomelab.com）](https://rhomelab.com/hardware/ups-sizing-and-nut-setup) | NUT 配置思路（ups.conf、nut-scanner） | 13.3 NUT 配置 |
 | [UPS Auto-Shutdown on Synology/QNAP（techfromalex.com）](https://techfromalex.com/ups-auto-shutdown-synology-qnap-nut) | 主/客户端 UPS 关系说明 | 13.3 多设备共用 UPS |
+| [Paperless-ngx on Portainer（SelfHostHero）](https://selfhosthero.com/?p=3345/) | 必改的三个变量、分卷存储的部署要点 | 14.3 Paperless-ngx |
+| [How to Install Paperless NGX on Synology（mariushosting.com）](https://mariushosting.com/how-to-install-paperless-ngx-on-your-synology-nas/) | NAS 上部署 Paperless-ngx 的实践 | 14.3 的 NAS 场景 |
+| [Home Assistant Container（sequr.be）](https://sequr.be/blog/2022/09/home-assistant-container-part-2-home-assistant-container) | HA 容器的 Compose 配置思路 | 14.2 Home Assistant |
 
 ## 四、开源项目与教学项目
 

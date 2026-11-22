@@ -1,0 +1,18 @@
+# Home Assistant — 智能家居中枢
+# 参考文档：docs/14-热门应用实战/14.2-Home-Assistant.md
+# ⚠️ host 网络 + privileged 提升权限，仅在可信家庭网络使用
+version: "3.8"
+
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: homeassistant
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/home-assistant:/config
+      - /etc/localtime:/etc/localtime:ro
+    # host 网络下端口直接暴露在宿主机：8123

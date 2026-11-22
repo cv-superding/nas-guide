@@ -2,6 +2,13 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.4.1] - 2026-11-23
+
+### 新增
+- 第 14 章「热门应用实战」：Portainer（容器图形化管理）、Home Assistant（智能家居）、Paperless-ngx（文档 OCR 归档）三个高频工具的"安装+配置+实测"小节
+- 新增 3 个可运行的 Compose 示例（portainer / home-assistant / paperless-ngx），全部通过 `docker compose config` 校验
+- 致谢页新增 3 篇部署教程来源
+
 ## [0.4.0] - 2026-11-23
 
 ### 新增（进阶教程整合）
@@ -55,7 +62,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.4.1...HEAD
+[0.4.1]: https://github.com/cv-superding/nas-guide/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/cv-superding/nas-guide/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/cv-superding/nas-guide/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/cv-superding/nas-guide/compare/v0.1.0...v0.2.0

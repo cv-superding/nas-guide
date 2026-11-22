@@ -21,7 +21,10 @@ examples/
 │   ├── nginx-proxy-manager/ # 反向代理
 │   ├── cloudflared/         # 内网穿透
 │   ├── uptime-kuma/         # 监控
-│   └── vaultwarden/         # 密码管理
+│   ├── vaultwarden/         # 密码管理
+│   ├── portainer/           # 容器图形化管理
+│   ├── home-assistant/      # 智能家居中枢
+│   └── paperless-ngx/       # 文档 OCR 归档
 ├── scripts/
 │   ├── disk-health-check.sh # 硬盘体检
 │   └── backup-restic.sh     # 自动备份

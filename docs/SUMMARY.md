@@ -122,6 +122,13 @@
 - [13.2 zfs send/recv 异地复制](13-数据保护进阶/13.2-zfs-send-recv.md)
 - [13.3 UPS 与 NUT 断电保护](13-数据保护进阶/13.3-UPS与NUT.md)
 
+## 14 热门应用实战（进阶）
+
+- [14.0 本章概览](14-热门应用实战/README.md)
+- [14.1 Portainer](14-热门应用实战/14.1-Portainer.md)
+- [14.2 Home Assistant](14-热门应用实战/14.2-Home-Assistant.md)
+- [14.3 Paperless-ngx](14-热门应用实战/14.3-Paperless-ngx.md)
+
 ## 附录
 
 - [附录概览](附录/README.md)
