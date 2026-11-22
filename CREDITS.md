@@ -64,17 +64,42 @@
 
 CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、Transmission、Syncthing、Ollama、AnythingLLM、RAGFlow、Nginx Proxy Manager、Uptime Kuma、restic、borgbackup、fail2ban、Ansible、MkDocs Material。
 
-在**如何组织一套教程**这件事上，我们还参考了这些高星教学/文档项目的思路——按章节递进、读路径分层、图文结合、示例与练习配套：
+在**如何组织一套教程**这件事上，我们参考了下面这些高星教学/文档/清单项目。它们各有所长——有的擅长分类索引，有的擅长概念拆解，有的用真实配置说话。本指南从它们身上学到了很多：
+
+### 文档与指南类
 
 | 项目 | 我们借鉴的组织方式 |
 | --- | --- |
-| CasaOS / OpenMediaVault | 面向新手的平实表达、功能分块说明 |
-| TrueNAS 文档 | 概念先行、术语对照、按主题拆分章节 |
+| [CasaOS](https://github.com/IceWhaleTech/CasaOS) / [OpenMediaVault](https://www.openmediavault.org/) | 面向新手的平实表达、功能分块说明（见 3.5、3.8） |
+| [TrueNAS 文档](https://www.truenas.com/docs/) | 概念先行、术语对照、按主题拆分章节（见 3.4、5.1） |
+| [Proxmox VE 中文手册](https://pve-doc-cn.readthedocs.io/) | 目录式结构、概念先行的技术文档写法（见第 11 章） |
+| [Ansible-NAS](https://github.com/davestephens/ansible-nas) | "用代码定义配置"的自动化章节组织（见 8.2） |
 | MoviePilot / getnas 等中文项目 | 中文场景化表达、本土应用说明 |
-| Ansible-NAS | "用代码定义配置"的自动化章节组织（见 8.2） |
 | openclaw-homelab-nas-guide 等 homelab 指南 | 从零到进阶的实战路径、多平台对比框架 |
 
-这些项目的内容和文档各有千秋，本指南只是站在它们的思路之上做了自己的整理。若你尚未读过，强烈建议去看看原文。
+### 精选清单类（Awesome List）
+
+| 项目 | 我们借鉴的组织方式 |
+| --- | --- |
+| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 按场景分类、条目带技术栈/许可证标签的清单体系（见第 10 章） |
+| [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | 按场景组织 + 名词速查表 + "自托管地图"的定位（见第 10 章） |
+| [AwesomeHomelab/awesome-homelab](https://github.com/AwesomeHomelab/awesome-homelab) | homelab 精选应用的分类方式 |
+| [TWO-ICE/Awesome-NAS-Docker](https://github.com/TWO-ICE/Awesome-NAS-Docker) | 中文 NAS + Docker 项目按场景分类（见第 10 章） |
+
+### 真实 Homelab 配置仓库
+
+这些仓库公开了自己真在跑的配置，让我们学到"活文档"该怎么组织（见第 12 章）：
+
+| 项目 | 我们借鉴的实践 |
+| --- | --- |
+| [TechHutTV/homelab](https://github.com/TechHutTV/homelab) | 云原生 homelab 的项目组织、媒体自动化栈 |
+| [kimzam30/my-homelab-setup](https://github.com/kimzam30/my-homelab-setup) | Docker Compose + Tailscale + 监控的整体结构 |
+| [jbaznik/homelab](https://github.com/jbaznik/homelab_codeasashu) | 双盘存储模型 + "verified nightly backups"（经验证的每夜备份） |
+| [northcutted/homelab](https://github.com/northcutted/homelab) | 按功能分目录的配置组织 |
+| [truethari/home-lab](https://github.com/truethari/home-lab) | 单一主 Compose 文件 + "Always Evolving" 的迭代理念 |
+| [SinghChinmayy/homelab](https://github.com/SinghChinmayy/homelab) | 媒体自动化栈 + 可选 Tailscale 集成 |
+
+这些项目的内容和文档各有千秋，本指南只是站在它们的思路之上做了自己的整理。若你尚未读过，强烈建议去看看原文、给它们点个星标。
 
 ## 五、配图说明
 

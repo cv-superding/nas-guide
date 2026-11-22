@@ -2,6 +2,17 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.3.0] - 2026-11-23
+
+### 新增（参考 20+ 开源项目）
+- 第 10 章「自托管应用图谱」：按场景分类的应用地图，参考 awesome-selfhosted、Self-Hosting-Guide、AwesomeHomelab、Awesome-NAS-Docker
+- 第 11 章「PVE 底层方案」：把 NAS 装进虚拟机与 AIO 的利弊，参考 Proxmox VE 中文手册、TechHutTV/homelab
+- 第 12 章「Homelab 实战样板」：从真实开源仓库学组织思路，参考 kimzam30、jbaznik、northcutted、truethari、SinghChinmayy 等项目
+- CREDITS.md 系统致谢全部参考项目（文档指南 / 精选清单 / 真实配置仓库三类）
+
+### 修复
+- 链接审计：修复 12 个失效内部链接 + 1 个失效锚点，全仓链接与 Mermaid 图健康度检查通过
+
 ## [0.2.0] - 2026-11-22
 
 ### 变更（内容重构）
@@ -31,6 +42,7 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/cv-superding/nas-guide/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/cv-superding/nas-guide/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/cv-superding/nas-guide/releases/tag/v0.1.0
