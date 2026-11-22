@@ -163,6 +163,11 @@ nav:
       - 11.1 PVE 是什么: 11-PVE底层方案/11.1-PVE是什么.md
       - 11.2 在 PVE 上装 NAS: 11-PVE底层方案/11.2-在PVE上装NAS.md
       - 11.3 该不该 All in One: 11-PVE底层方案/11.3-该不该AIO.md
+  - 12 Homelab 实战样板:
+      - 概览: 12-Homelab实战样板/README.md
+      - 12.1 仓库结构: 12-Homelab实战样板/12.1-仓库结构.md
+      - 12.2 值得借鉴的实践: 12-Homelab实战样板/12.2-值得借鉴的实践.md
+      - 12.3 搭建自己的样板: 12-Homelab实战样板/12.3-搭建自己的样板.md
   - 附录:
       - 概览: 附录/README.md
       - A 命令速查: 附录/A-命令速查.md
