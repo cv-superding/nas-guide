@@ -26,12 +26,14 @@
 
 ```mermaid
 flowchart TB
-    A[自托管应用图谱] --> B[文件与同步]
-    A --> C[影音与阅读]
-    A --> D[效率与协作]
-    A --> E[家庭与生活]
-    A --> F[运维与工具]
-    A --> G[AI 与数据]
+    A[一台 NAS] --> B[文件与同步<br/>Nextcloud · Syncthing · restic]
+    A --> C[影音与阅读<br/>Jellyfin · Navidrome · Calibre-Web]
+    A --> D[效率与协作<br/>Joplin · Paperless · Gitea]
+    A --> E[家庭与网络<br/>AdGuard Home · Home Assistant]
+    A --> F[运维与工具<br/>Uptime Kuma · Homepage · n8n]
+    A --> G[AI 与数据<br/>Ollama · AnythingLLM · RAGFlow]
+
+    style A fill:#e0f7fa,stroke:#00838f
 ```
 
 ## 小节列表
