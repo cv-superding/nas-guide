@@ -6,7 +6,7 @@
 
 | 方式 | 适合场景 | 入口 |
 | --- | --- | --- |
-| 提 Issue | 发现错误、想补充Topic、报告链接失效 | [Issues](https://github.com/cv-superding/NAS入门指南/issues) |
+| 提 Issue | 发现错误、想补充Topic、报告链接失效 | [Issues](https://github.com/cv-superding/nas-guide/issues) |
 | 改文档 | 错别字、表述优化、补充操作步骤 | 直接 PR |
 | 加平台 | 补充某品牌/版本的差异说明 | 参考 [多平台模板](templates/platform-template.md) |
 | 加案例 | 分享你的完整搭建过程 | 参考 [实战案例模板](templates/case-template.md) |

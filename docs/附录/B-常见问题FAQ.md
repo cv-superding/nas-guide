@@ -55,4 +55,4 @@ A：见 [0.2 如何使用本指南](../00-前言/如何使用本指南.md) 的�
 **Q：这台机器可以做 All in One 吗？**
 A：技术上可以（PVE + NAS + 其他服务），但复杂度高、故障影响面大。家庭用户建议量力而行。详见 [8.1](../08-进阶主题/8.1-虚拟机与容器.md)。
 
-> 💡 没找到答案？欢迎到 [Issues](https://github.com/cv-superding/NAS入门指南/issues) 提问。
+> 💡 没找到答案？欢迎到 [Issues](https://github.com/cv-superding/nas-guide/issues) 提问。

@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Docs: MkDocs Material](https://img.shields.io/badge/docs-MkDocs%20Material-blue.svg)](mkdocs.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/cv-superding/NAS%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97?style=social)](https://github.com/cv-superding/NAS入门指南)
+[![Stars](https://img.shields.io/github/stars/cv-superding/nas-guide?style=social)](https://github.com/cv-superding/nas-guide)
 
 ---
 
@@ -102,7 +102,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/cv-superding/NAS入门指南.git
+git clone https://github.com/cv-superding/nas-guide.git
 cd NAS入门指南
 
 # 2. 直接阅读（任选其一）

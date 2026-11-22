@@ -1,9 +1,9 @@
 site_name: NAS 入门指南
-site_url: https://cv-superding.github.io/NAS入门指南/
+site_url: https://cv-superding.github.io/nas-guide/
 site_description: 从零开始的 NAS 搭建与自托管实践 · 面向中文读者 · 多平台横向对比
 site_author: cv-superding
-repo_url: https://github.com/cv-superding/NAS入门指南
-repo_name: cv-superding/NAS入门指南
+repo_url: https://github.com/cv-superding/nas-guide
+repo_name: cv-superding/nas-guide
 edit_uri: edit/main/docs/
 
 theme:

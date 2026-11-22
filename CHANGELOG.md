@@ -19,5 +19,5 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/NAS入门指南/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/cv-superding/NAS入门指南/releases/tag/v0.1.0
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/cv-superding/nas-guide/releases/tag/v0.1.0
