@@ -1,0 +1,21 @@
+# 本地大模型 Ollama
+# 参考文档：docs/07-应用服务/7.5-自托管AI.md
+version: "3.8"
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+    # 如有 NVIDIA GPU 并安装了 nvidia-container-toolkit，可取消注释
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+    restart: unless-stopped

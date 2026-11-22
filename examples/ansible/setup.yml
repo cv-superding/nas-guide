@@ -1,0 +1,33 @@
+# Ansible 基础环境配置 Playbook
+# 参考文档：docs/08-进阶主题/8.2-Ansible自动化运维.md
+# 运行：ansible-playbook -i inventory.ini setup.yml
+---
+- name: NAS 基础环境配置
+  hosts: nas
+  become: true
+  tasks:
+    - name: 安装常用工具
+      package:
+        name:
+          - curl
+          - vim
+          - smartmontools
+          - rsync
+        state: present
+
+    - name: 创建 Docker 目录结构
+      file:
+        path: "/volume1/docker/{{ item }}"
+        state: directory
+        mode: '0755'
+      loop:
+        - jellyfin
+        - qbittorrent
+        - ollama
+        - npm
+
+    - name: 确保时间同步开启
+      service:
+        name: systemd-timesyncd
+        state: started
+        enabled: true

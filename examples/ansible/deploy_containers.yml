@@ -1,0 +1,26 @@
+# Ansible 容器部署 Playbook 示例
+# 参考文档：docs/08-进阶主题/8.2-Ansible自动化运维.md
+# 运行：ansible-playbook -i inventory.ini deploy_containers.yml
+---
+- name: 部署容器化服务
+  hosts: nas
+  become: true
+  tasks:
+    - name: 复制 Compose 文件到 NAS
+      copy:
+        src: "../docker-compose/{{ item }}/docker-compose.yml"
+        dest: "/volume1/docker/{{ item }}/docker-compose.yml"
+        mode: '0644'
+      loop:
+        - jellyfin
+        - uptime-kuma
+
+    - name: 启动服务
+      community.docker.docker_compose:
+        project_src: "/volume1/docker/{{ item }}"
+        state: present
+      loop:
+        - jellyfin
+        - uptime-kuma
+      # 注意：需先安装 community.docker 集合
+      # ansible-galaxy collection install community.docker

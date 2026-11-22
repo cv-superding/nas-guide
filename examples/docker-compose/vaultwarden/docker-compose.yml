@@ -1,0 +1,18 @@
+# 密码管理 Vaultwarden（Bitwarden 轻量替代）
+# 参考文档：docs/07-应用服务/7.4-私有云与相册.md
+# ⚠️ 高敏感服务：务必配置 HTTPS、强主密码并开启 2FA
+version: "3.8"
+
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+      - ADMIN_TOKEN=${VAULTWARDEN_ADMIN_TOKEN:-CHANGE_ME}
+      - SIGNUPS_ALLOWED=false   # 初始化后关闭注册
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/vaultwarden:/data
+    ports:
+      - "8222:80"
+    restart: unless-stopped

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 贡献指南
+    url: https://github.com/cv-superding/NAS入门指南/blob/main/CONTRIBUTING.md
+    about: 提交内容前请先阅读贡献指南与写作规范
+  - name: 问题讨论
+    url: https://github.com/cv-superding/NAS入门指南/discussions
+    about: 一般性使用问题与经验交流请到 Discussions

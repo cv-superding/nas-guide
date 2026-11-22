@@ -1,0 +1,20 @@
+# 影音中心 Jellyfin
+# 参考文档：docs/07-应用服务/7.2-影音中心.md
+version: "3.8"
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/jellyfin/config:/config
+      - ${NAS_DATA:-/volume1/docker}/jellyfin/cache:/cache
+      - /volume1/media:/media:ro   # 修改为你的媒体库路径
+    ports:
+      - "8096:8096"
+    # 如有核显，取消下面 devices 注释以启用硬件转码
+    # devices:
+    #   - /dev/dri:/dev/dri
+    restart: unless-stopped

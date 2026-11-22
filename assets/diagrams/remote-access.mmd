@@ -1,0 +1,10 @@
+flowchart TD
+    A{有公网 IPv4?} -->|否| B[Tailscale / WireGuard<br/>或 Cloudflared 穿透]
+    A -->|是| C{愿意配置 VPN?}
+    C -->|是| D[Tailscale / WireGuard ✅]
+    C -->|否| E[DDNS + 端口转发<br/>⚠️ 务必强密码+HTTPS+限IP]
+    B --> F{有 IPv6?}
+    F -->|是| G[可考虑 IPv6 直连+防火墙]
+
+    style D fill:#e8f5e9,stroke:#2e7d32
+    style E fill:#fff3e0,stroke:#ef6c00

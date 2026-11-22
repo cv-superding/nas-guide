@@ -1,0 +1,36 @@
+name: 选题建议
+description: 建议新增章节、平台内容或实战案例
+title: "[选题] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: 想补充什么内容
+      description: 具体主题与理由
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 内容类别
+      options:
+        - 新手教程
+        - 平台介绍
+        - 应用服务
+        - 进阶主题
+        - 实战案例
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: 目标读者与场景
+      description: 谁会用到？解决什么问题？
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: 参与意愿
+      options:
+        - label: 我愿意撰写这部分内容

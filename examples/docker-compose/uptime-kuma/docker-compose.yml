@@ -1,0 +1,13 @@
+# 监控 Uptime Kuma
+# 参考文档：docs/08-进阶主题/8.5-监控与告警.md
+version: "3.8"
+
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime-kuma
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/uptime-kuma:/app/data
+    ports:
+      - "3001:3001"
+    restart: unless-stopped

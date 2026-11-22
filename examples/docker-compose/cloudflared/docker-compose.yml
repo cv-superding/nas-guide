@@ -1,0 +1,13 @@
+# 内网穿透 Cloudflared Tunnel
+# 参考文档：docs/06-网络与远程访问/6.2-远程访问方案对比.md
+# 使用前需在 Cloudflare 创建 Tunnel 并获取 TOKEN
+version: "3.8"
+
+services:
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+    restart: unless-stopped

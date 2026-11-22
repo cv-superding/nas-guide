@@ -1,0 +1,34 @@
+# 私有云 Nextcloud
+# 参考文档：docs/07-应用服务/7.4-私有云与相册.md
+version: "3.8"
+
+services:
+  db:
+    image: mariadb:10.11
+    container_name: nextcloud-db
+    environment:
+      - MARIADB_ROOT_PASSWORD=${DB_ROOT_PASSWORD:-CHANGE_ME}
+      - MARIADB_DATABASE=nextcloud
+      - MARIADB_USER=nextcloud
+      - MARIADB_PASSWORD=${DB_PASSWORD:-CHANGE_ME}
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/nextcloud/db:/var/lib/mysql
+    restart: unless-stopped
+
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    depends_on:
+      - db
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=${DB_PASSWORD:-CHANGE_ME}
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/nextcloud/data:/var/www/html/data
+      - ${NAS_DATA:-/volume1/docker}/nextcloud/config:/var/www/html/config
+    ports:
+      - "8082:80"
+    restart: unless-stopped

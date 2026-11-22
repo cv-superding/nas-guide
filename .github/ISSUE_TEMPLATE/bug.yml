@@ -1,0 +1,37 @@
+name: 内容纠错
+description: 发现文档中的错误、过时信息或失效链接
+title: "[纠错] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢帮忙纠错！请尽量提供准确位置与正确信息。
+  - type: input
+    id: location
+    attributes:
+      label: 问题位置
+      description: 文件路径或章节小节
+      placeholder: docs/05-存储与数据保护/5.2-RAID与存储池实战.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 哪里错了？错在哪里？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议修改
+      description: 正确的内容应该是什么（可选）
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 问题类型
+      options:
+        - label: 错别字/表述
+        - label: 技术错误
+        - label: 链接失效
+        - label: 版本过时

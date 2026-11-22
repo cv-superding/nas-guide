@@ -1,0 +1,34 @@
+# AI 相册 Immich（简化示例）
+# 参考文档：docs/07-应用服务/7.4-私有云与相册.md
+# 生产使用请参考官方文档补全 redis、machine-learning 等服务
+version: "3.8"
+
+services:
+  immich-db:
+    image: tensorchord/pgvecto-rs:pg16-v0.3.0
+    container_name: immich-db
+    environment:
+      - POSTGRES_USER=immich
+      - POSTGRES_PASSWORD=${IMMICH_DB_PASSWORD:-CHANGE_ME}
+      - POSTGRES_DB=immich
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/immich/db:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  immich-server:
+    image: ghcr.io/immich-app/immich-server:release
+    container_name: immich-server
+    depends_on:
+      - immich-db
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+      - DB_HOSTNAME=immich-db
+      - DB_USERNAME=immich
+      - DB_PASSWORD=${IMMICH_DB_PASSWORD:-CHANGE_ME}
+      - DB_DATABASE=immich
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/immich/upload:/usr/src/app/upload
+      - /volume1/photos:/photos:ro   # 修改为你的照片目录
+    ports:
+      - "2283:2283"
+    restart: unless-stopped

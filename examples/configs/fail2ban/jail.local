@@ -1,0 +1,20 @@
+# fail2ban 基础配置示例
+# 参考文档：docs/06-网络与远程访问/6.5-安全加固.md
+# 安装后复制到 /etc/fail2ban/jail.local 并按实际情况修改
+
+[DEFAULT]
+# 封禁时长（秒）
+bantime  = 3600
+# 统计窗口（秒）
+findtime = 600
+# 失败次数阈值
+maxretry = 5
+# 白名单（替换为你的内网网段）
+ignoreip = 127.0.0.1/8 192.168.1.0/24
+
+[sshd]
+enabled = true
+port    = ssh
+backend = systemd
+
+# 如启用了其他服务的登录认证，可按需添加对应的 jail

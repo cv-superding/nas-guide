@@ -1,0 +1,18 @@
+# 反向代理 Nginx Proxy Manager
+# 参考文档：docs/06-网络与远程访问/6.3-反向代理与域名.md
+version: "3.8"
+
+services:
+  npm:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy-manager
+    environment:
+      - TZ=${TZ:-Asia/Shanghai}
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/npm/data:/data
+      - ${NAS_DATA:-/volume1/docker}/npm/letsencrypt:/etc/letsencrypt
+    ports:
+      - "80:80"       # HTTP（用于证书申请与跳转）
+      - "81:81"       # 管理界面
+      - "443:443"     # HTTPS
+    restart: unless-stopped

@@ -1,0 +1,47 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# 文档站点构建产物
+site/
+.cache/
+.mkdocs-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node（若有前端辅助脚本）
+node_modules/
+dist/
+
+# 临时与备份文件
+*.tmp
+*.bak
+*.log
+*.orig
+
+# 凭据与敏感信息（重要）
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.json
+token.txt
+
+# 图片中间文件（保留最终图片）
+*.psd
+*.xcf
