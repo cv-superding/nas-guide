@@ -2,6 +2,15 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.7] - 2026-11-23
+
+### 新增（飞牛官方文档图片大扩充）
+- 系统爬取飞牛官方帮助中心 71 个文档页，发现 176 张官方截图，精选 17 张入库（用户权限、存储池、影音、GPU 直通、SSD 缓存、访问服务等）
+- 这 17 张嵌入到最匹配的小节：4.3 用户管理、5.2 存储池、7.2 影音、8.3 SSD 缓存、11.2 GPU 直通、6.1 访问设置等
+- 给图片偏少的章节概览补图（01/12/13/15），全部 16 章现均有真实截图
+- 截图总数 28→45 张，45 张全部被文档引用
+- CREDITS 补全飞牛官方文档页面来源
+
 ## [0.6.6] - 2026-11-23
 
 ### 新增（图片补全）
@@ -134,7 +143,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.6...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.7...HEAD
+[0.6.7]: https://github.com/cv-superding/nas-guide/compare/v0.6.6...v0.6.7
 [0.6.6]: https://github.com/cv-superding/nas-guide/compare/v0.6.5...v0.6.6
 [0.6.5]: https://github.com/cv-superding/nas-guide/compare/v0.6.4...v0.6.5
 [0.6.4]: https://github.com/cv-superding/nas-guide/compare/v0.6.3...v0.6.4
