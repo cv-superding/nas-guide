@@ -189,7 +189,17 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 
 文中提及的群晖、威联通、TrueNAS、CasaOS、飞牛 fnOS 等产品名称与 Logo 归各自所有者所有。本指南仅为教学目的提及，不构成背书或商业使用。
 
-## 六、如果漏了谁
+## 六、视频内容的引用方式
+
+本指南也参考了 B 站等平台的优质视频教程。我们的做法是：
+
+1. 用 [`tools/video_transcribe.py`](tools/README.md) 把视频逐句转录成文字稿，存于 [`transcripts/`](transcripts/README.md)
+2. 人工校对（机器转录常把专有名词识别错）
+3. 用自己的话提炼核心观点写进正文，并标注视频链接与 UP 主
+
+被转录引用的视频：正经de群晖的黑群晖安装教程（BV1VrTg66EUu）、司波图的 TrueNAS+飞牛双系统（BV1gEfYBxE8V）与"为什么 NAS 越来越不好玩"（BV1cUud6nEKm）。**版权归各 UP 主所有**，我们只做观点提炼与非商业教学引用，具体步骤请去看原视频。
+
+## 七、如果漏了谁
 
 我们尽量标注每一处参考，但整理过程中难免有疏漏。如果你发现：
 

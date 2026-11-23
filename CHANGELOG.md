@@ -2,6 +2,12 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.4] - 2026-11-23
+
+### 新增
+- transcripts/README.md：文字稿索引表，列出每篇视频的来源、UP主、主题与提炼去向
+- CREDITS 新增"视频内容的引用方式"章节，说明转录→校对→提炼→署名的流程
+
 ## [0.6.3] - 2026-11-23
 
 ### 新增（视频内容二次提炼 · 行业观察）
@@ -112,7 +118,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.3...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.4...HEAD
+[0.6.4]: https://github.com/cv-superding/nas-guide/compare/v0.6.3...v0.6.4
 [0.6.3]: https://github.com/cv-superding/nas-guide/compare/v0.6.2...v0.6.3
 [0.6.2]: https://github.com/cv-superding/nas-guide/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/cv-superding/nas-guide/compare/v0.6.0...v0.6.1
