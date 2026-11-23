@@ -45,6 +45,28 @@
 | [NEBULA（ooppll.icu）](https://ooppll.icu/) | 飞牛实践、SSD 基准测试、自托管 AI 生态的中文经验分享 | 新盘检测的"跑一遍基准"习惯、在 NAS 上跑本地模型的思路，见 2.2、5.5、7.5 |
 | [简米科技（idctop.com）](https://idctop.com/article/610259.html) | 旧电脑改 NAS 的硬件与安装说明 | 电源功率、启动盘、BIOS 设置的细节 |
 
+### B 站视频 UP 主（第 15 章）
+
+这些 UP 主的视频帮我们理解"画面感强"的操作，并提供了大量真实观点。我们只做提炼与索引，具体步骤请去看原视频：
+
+| UP 主 | 内容方向 | 我们参考的观点 |
+| --- | --- | --- |
+| [司波图](https://space.bilibili.com/) | NAS/软路由/黑苹果，TrueNAS SCALE 系列 | "TrueNAS 骨架 + 飞牛灵魂"的双系统架构、ZFS 快照兜底，见 15.1 |
+| 爱折腾的老高 | 迷你主机/NAS 硬件评测 | 零刻四盘版 NAS 拆解、显卡扩展坞对比，见 15.1 |
+| 老湿基 | TrueNAS 进阶 | 25.10 的 NVMe-oF 支持评价，见 15.1 |
+| [正经de群晖](https://space.bilibili.com/439836524) | 黑群晖安装、外网访问 | 安装教程与 DDNS/内网穿透的组织方式，见 15.1 |
+| 小陈折腾日记 | 黑群晖 + 飞牛虚拟机 + 核显直通 | 双系统硬解方案，见 15.1 |
+| [清华博士带你玩转 NAS 与 AI](https://m.bilibili.com/opus/1078628264176517124) | NAS 选购与 AI 玩法 | "小白先买成品"的建议、飞牛真实 bug 提醒，见 15.1 |
+
+### CSDN 与博客（第 15 章）
+
+| 来源 | 内容 | 我们参考的部分 |
+| --- | --- | --- |
+| [旧电脑变身全能服务器（CSDN）](https://bbs.csdn.net/weixin_32308101/article/details/100357251) | 飞牛 + Docker 部署 | "公寓/集装箱房"的 Docker 比喻，见 15.2 |
+| [飞牛 FNOS 搭建私有云全攻略（CSDN，CC BY-SA）](https://bbs.csdn.net/weixin_30225755/article/details/100450294) | 硬件到 Docker 全流程 | 全流程结构，见 15.2 |
+| [旧笔记本+角钢机箱百元 NAS（CSDN）](https://blog.csdn.net/weixin_33806859/article/details/166275906) | 低成本飞牛方案 | 系统盘独立、避免误格的经验，见 15.2 |
+| [星哥带你玩飞牛 NAS 系列（DevPress/CSDN）](https://devpress.csdn.net/awstech/6a9266e43bda720d4b36fad5.html) | Docker 功能、B 站收藏同步 | Nginx 容器步骤、bili-sync 玩法，见 15.2 |
+
 ## 三、英文社区与理念文章
 
 这些文章把一些容易被说错的道理讲清楚了，我们据此重写了相关章节：

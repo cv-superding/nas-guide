@@ -2,6 +2,13 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.0] - 2026-11-23
+
+### 新增（整合 B 站与 CSDN 资源）
+- 第 15 章「中文视频与博客」：B 站 UP 主地图（司波图、爱折腾的老高、正经de群晖等）、CSDN 博客精选、视频+文字配合学习法
+- 把 UP 主/博主的核心观点用自己的话提炼成索引（如"TrueNAS 骨架+飞牛灵魂"、Docker"公寓/集装箱房"比喻、"小白先买成品"建议）
+- 致谢页新增 B 站 UP 主与 CSDN 博客分类，全部标注来源与署名
+
 ## [0.5.1] - 2026-11-23
 
 ### 新增
@@ -80,7 +87,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.5.1...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/cv-superding/nas-guide/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/cv-superding/nas-guide/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/cv-superding/nas-guide/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/cv-superding/nas-guide/compare/v0.4.0...v0.4.1

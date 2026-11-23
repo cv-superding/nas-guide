@@ -93,6 +93,7 @@ flowchart LR
 | [12 Homelab 样板](docs/12-Homelab实战样板/README.md) | 读别人的真实配置 | ⭐⭐⭐ | 学会组织自己的机器 |
 | [13 数据保护进阶](docs/13-数据保护进阶/README.md) | ZFS 调优/异地复制/UPS | ⭐⭐⭐⭐ | 把数据保护做扎实 |
 | [14 热门应用实战](docs/14-热门应用实战/README.md) | Portainer/HA/Paperless | ⭐⭐⭐ | 把高频工具装明白 |
+| [15 视频与博客](docs/15-中文视频与博客/README.md) | 跟着谁学 | ⭐ | 找到对口的 UP 主和博客 |
 | [附录](docs/附录/README.md) | 速查、FAQ、社区 | — | 遇到问题回来翻 |
 
 ## 七大平台，一句话印象
