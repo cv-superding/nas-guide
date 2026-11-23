@@ -2,6 +2,13 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.2] - 2026-11-23
+
+### 新增（视频内容二次提炼）
+- 转录司波图"TrueNAS + 飞牛双系统"视频（BV1gEfYBxE8V），文字稿存入 transcripts/
+- 11.3 新增"真实案例：TrueNAS 打底 + 飞牛做体验层"——从视频逐句提炼的架构、实操细节与风险提醒
+- 15.1 补充视频链接与文字稿/提炼内容的交叉引用
+
 ## [0.6.1] - 2026-11-23
 
 ### 新增（视频转文字能力）
@@ -98,7 +105,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.1...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.2...HEAD
+[0.6.2]: https://github.com/cv-superding/nas-guide/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/cv-superding/nas-guide/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/cv-superding/nas-guide/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/cv-superding/nas-guide/compare/v0.5.0...v0.5.1
