@@ -2,6 +2,13 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.3] - 2026-11-23
+
+### 新增（视频内容二次提炼 · 行业观察）
+- 转录司波图《为什么 NAS 越来越不好玩了》（BV1cUud6nEKm）
+- 1.3 新增"反向视角：为什么很多人最后不爱玩了"——从视频提炼的"五盏灯熄灭"与"回归基础设施"结论
+- 引导读者区分"折腾的快乐"与"数据安稳的踏实"，呼应数据保护优先的理念
+
 ## [0.6.2] - 2026-11-23
 
 ### 新增（视频内容二次提炼）
@@ -105,7 +112,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.2...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.3...HEAD
+[0.6.3]: https://github.com/cv-superding/nas-guide/compare/v0.6.2...v0.6.3
 [0.6.2]: https://github.com/cv-superding/nas-guide/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/cv-superding/nas-guide/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/cv-superding/nas-guide/compare/v0.5.1...v0.6.0
