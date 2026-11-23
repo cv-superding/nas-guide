@@ -33,6 +33,11 @@ dist/
 *.log
 *.orig
 
+# 视频转录临时文件（保留最终文字稿）
+transcripts/_work/
+*.m4a
+*.wav
+
 # 凭据与敏感信息（重要）
 .env
 .env.*

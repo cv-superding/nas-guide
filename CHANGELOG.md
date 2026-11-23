@@ -2,6 +2,17 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.1] - 2026-11-23
+
+### 新增（视频转文字能力）
+- 新增 `tools/video_transcribe.py`：yt-dlp 下载音频 → ffmpeg 转 wav → faster-whisper 本地转录，把无字幕视频转成带时间戳的中文文字稿
+- 实测转录了正经de群晖的黑群晖安装视频（BV1VrTg66EUu），文字稿存入 `transcripts/`
+- 15.1 新增"从视频转录提炼的实操要点"——逐句看完视频后改写，而非泛泛索引
+- 15.3 新增"把视频转成文字"一节，教读者使用工具
+
+### 安装的工具
+- yt-dlp、faster-whisper（项目 .venv），Whisper small 模型（HF 镜像下载并缓存）
+
 ## [0.6.0] - 2026-11-23
 
 ### 新增（整合 B 站与 CSDN 资源）
@@ -87,7 +98,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.1...HEAD
+[0.6.1]: https://github.com/cv-superding/nas-guide/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/cv-superding/nas-guide/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/cv-superding/nas-guide/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/cv-superding/nas-guide/compare/v0.4.1...v0.5.0
