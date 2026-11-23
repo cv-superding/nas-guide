@@ -2,6 +2,13 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.8] - 2026-11-23
+
+### 新增（飞牛官方文档图片第二批）
+- 再挖飞牛文档 8 个页面（AI 相册/照片分享/WebDAV/NFS/WiFi/TV端/Infuse/文件夹创建），精选 13 张入库
+- 嵌入 7.4（AI 人脸聚类/分享二维码）、6.3（WebDAV）、7.2（TV端/Infuse）、4.4（创建文件夹）、6.1（WiFi）、7.3（NFS）等小节
+- 截图总数 45→58 张，58 张全部被引用，794 个链接零失效
+
 ## [0.6.7] - 2026-11-23
 
 ### 新增（飞牛官方文档图片大扩充）
@@ -143,7 +150,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.7...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.8...HEAD
+[0.6.8]: https://github.com/cv-superding/nas-guide/compare/v0.6.7...v0.6.8
 [0.6.7]: https://github.com/cv-superding/nas-guide/compare/v0.6.6...v0.6.7
 [0.6.6]: https://github.com/cv-superding/nas-guide/compare/v0.6.5...v0.6.6
 [0.6.5]: https://github.com/cv-superding/nas-guide/compare/v0.6.4...v0.6.5

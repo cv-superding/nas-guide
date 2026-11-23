@@ -168,7 +168,7 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 | --- | --- | --- |
 | `fnos-install-*.png`（4 张安装向导） | [飞牛官方帮助中心](https://help.fnnas.com/articles/v1/start/install-os) | © 飞牛 fnOS，官方安装文档截图 |
 | `fnos-init-*.jpg`（3 张初始化向导） | [飞牛官方帮助中心](https://help.fnnas.com/articles/v1/start/install-os) | © 飞牛 fnOS，官方初始化文档截图 |
-| `fnos-user-*.png` / `fnos-create-*.png` / `fnos-pool-*.png` / `fnos-media-*.png` / `fnos-passthrough-*.png` / `fnos-ssd-cache-*.png` / `fnos-access-*.png` / `fnos-desktop-fresh.png` 等（17 张） | [飞牛官方帮助中心](https://help.fnnas.com/)（用户权限、存储池、影音、硬件直通、SSD 缓存、文件服务等文档页） | © 飞牛 fnOS，官方文档截图，教学引用 |
+| `fnos-user-*.png` / `fnos-create-*.png` / `fnos-pool-*.png` / `fnos-media-*.png` / `fnos-passthrough-*.png` / `fnos-ssd-cache-*.png` / `fnos-access-*.png` / `fnos-ai-*.png` / `fnos-photo-share*.png` / `fnos-webdav-*.png` / `fnos-nfs.png` / `fnos-wifi.png` / `fnos-tv-*.png` / `fnos-infuse-*.png` 等（30 张） | [飞牛官方帮助中心](https://help.fnnas.com/)（用户权限、存储池、影音、AI 相册、照片分享、WebDAV、NFS、WiFi、TV 端、硬件直通、SSD 缓存等文档页） | © 飞牛 fnOS，官方文档截图，教学引用 |
 | `disk-benchmark.jpg`（SSD 基准测试） | [NEBULA（ooppll.icu）](https://ooppll.icu/) | © NEBULA 作者，教学引用 |
 | `hardware-compare.webp`（硬件方案对比） | [fnnas.wiki](https://fnnas.wiki/) | © fnnas.wiki 作者，教学引用 |
 | `fnos-desktop.png` / `fnos-appstore.webp` | [Lycoris 的小破站](https://lycoris.cloud/archives/019eda7f-15b1-743e-9aab-d0ee8999b0a5) | © Lycoris，教学引用 |
