@@ -2,6 +2,13 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.5] - 2026-11-23
+
+### 新增（视频内容二次提炼 · 平台选型）
+- 转录旅客君 LookUplus《从 TrueNAS 换到飞牛 OS》（BV1ncjJ6wE7C）
+- 3.6 飞牛分论加入真实用户视角：素材管理、iCloud+NAS 分工、微信备份、家人零门槛使用
+- 更新文字稿索引与 CREDITS（累计 4 篇视频文字稿）
+
 ## [0.6.4] - 2026-11-23
 
 ### 新增
@@ -118,7 +125,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.4...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.5...HEAD
+[0.6.5]: https://github.com/cv-superding/nas-guide/compare/v0.6.4...v0.6.5
 [0.6.4]: https://github.com/cv-superding/nas-guide/compare/v0.6.3...v0.6.4
 [0.6.3]: https://github.com/cv-superding/nas-guide/compare/v0.6.2...v0.6.3
 [0.6.2]: https://github.com/cv-superding/nas-guide/compare/v0.6.1...v0.6.2

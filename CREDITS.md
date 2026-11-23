@@ -197,7 +197,7 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 2. 人工校对（机器转录常把专有名词识别错）
 3. 用自己的话提炼核心观点写进正文，并标注视频链接与 UP 主
 
-被转录引用的视频：正经de群晖的黑群晖安装教程（BV1VrTg66EUu）、司波图的 TrueNAS+飞牛双系统（BV1gEfYBxE8V）与"为什么 NAS 越来越不好玩"（BV1cUud6nEKm）。**版权归各 UP 主所有**，我们只做观点提炼与非商业教学引用，具体步骤请去看原视频。
+被转录引用的视频：正经de群晖的黑群晖安装教程（BV1VrTg66EUu）、司波图的 TrueNAS+飞牛双系统（BV1gEfYBxE8V）与"为什么 NAS 越来越不好玩"（BV1cUud6nEKm）、旅客君 LookUplus 的从 TrueNAS 换到飞牛（BV1ncjJ6wE7C）。**版权归各 UP 主所有**，我们只做观点提炼与非商业教学引用，具体步骤请去看原视频。
 
 ## 七、如果漏了谁
 

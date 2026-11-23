@@ -11,6 +11,7 @@
 | [BV1VrTg66EUu.txt](BV1VrTg66EUu.txt) | [BV1VrTg66EUu](https://www.bilibili.com/video/BV1VrTg66EUu) | 正经de群晖 | 黑群晖 DSM7.4 安装（五步流程、U盘引导、BIOS、硬盘选择） | [15.1 B 站 UP 主](../docs/15-中文视频与博客/15.1-B站UP主.md) |
 | [BV1gEfYBxE8V.txt](BV1gEfYBxE8V.txt) | [BV1gEfYBxE8V](https://www.bilibili.com/video/BV1gEfYBxE8V) | 司波图 | TrueNAS + 飞牛双系统架构（ZFS 兜底、KVM 虚拟机、GPU 直通、风险提醒） | [11.3 该不该 AIO](../docs/11-PVE底层方案/11.3-该不该AIO.md)、[15.1](../docs/15-中文视频与博客/15.1-B站UP主.md) |
 | [BV1cUud6nEKm.txt](BV1cUud6nEKm.txt) | [BV1cUud6nEKm](https://www.bilibili.com/video/BV1cUud6nEKm) | 司波图 | 行业观察："为什么 NAS 越来越不好玩"（五盏灯熄灭、回归基础设施） | [1.3 谁需要 NAS](../docs/01-认识NAS/1.3-谁需要NAS.md) |
+| [BV1ncjJ6wE7C.txt](BV1ncjJ6wE7C.txt) | [BV1ncjJ6wE7C](https://www.bilibili.com/video/BV1ncjJ6wE7C) | 旅客君LookUplus | 从 TrueNAS 换到飞牛的真实感受（素材管理、iCloud 分工、微信备份） | [3.6 飞牛 fnOS](../docs/03-平台横评与选型/3.6-飞牛fnOS.md) |
 
 ## 如何新增一篇
 
