@@ -6,6 +6,12 @@
 
 > ⏱ 大约 40 分钟 · 难度 ⭐⭐ · 当成"地图"来逛，不用记
 
+<p align="center">
+  <img src="../assets/screenshots/gitea-home.png" alt="Gitea 官方代码托管界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [github.com](https://github.com/go-gitea/gitea)，见 [致谢](../../CREDITS.md)。
+
 ## 这一章为什么存在
 
 第 7 章我们装了影音、下载、相册、AI 这几样最常见的应用。

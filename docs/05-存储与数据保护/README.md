@@ -6,6 +6,12 @@
 
 > ⏱ 大约 70 分钟 · 难度 ⭐⭐⭐ · 建议边读边动手
 
+<p align="center">
+  <img src="../assets/screenshots/fnos-init-storage.jpg" alt="飞牛 fnOS 存储配置界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [help.fnnas.com](https://help.fnnas.com/)，见 [致谢](../../CREDITS.md)。
+
 ## 先看这张图
 
 图里有三本一模一样的相册、一个上锁的小木盒，还有远处一间亮着灯的小屋。

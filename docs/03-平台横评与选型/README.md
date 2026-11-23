@@ -6,6 +6,12 @@
 
 > ⏱ 大约 60 分钟 · 难度 ⭐⭐ · 不需要设备，带着你的需求来
 
+<p align="center">
+  <img src="../assets/screenshots/casaos-desktop.jpg" alt="CasaOS 官方桌面界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [github.com](https://github.com/IceWhaleTech/CasaOS)，见 [致谢](../../CREDITS.md)。
+
 ## 一场"相亲"
 
 挑 NAS 系统，其实挺像相亲的。

@@ -6,6 +6,12 @@
 
 > ⏱ 大约 70 分钟 · 难度 ⭐⭐⭐ · 这一章开始装应用
 
+<p align="center">
+  <img src="../assets/screenshots/immich-gallery.png" alt="Immich 官方相册界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [github.com](https://github.com/immich-app/immich)，见 [致谢](../../CREDITS.md)。
+
 ## 前面都在搭台，这一章开始唱戏
 
 想象一下你现在的状态：NAS 有了、数据安全守住了、网络也通了。

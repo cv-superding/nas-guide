@@ -6,6 +6,12 @@
 
 > ⏱ 大约 45 分钟 · 难度 ⭐⭐ · 这一章要动手了
 
+<p align="center">
+  <img src="../assets/screenshots/fnos-install-disk.png" alt="飞牛 fnOS 安装选盘界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [help.fnnas.com](https://help.fnnas.com/)，见 [致谢](../../CREDITS.md)。
+
 ## 那种感觉，我懂
 
 第一次装 NAS 的心情很微妙：既兴奋又紧张。

@@ -6,6 +6,12 @@
 
 > ⏱ 大约 60 分钟 · 难度 ⭐⭐⭐ · 要动手
 
+<p align="center">
+  <img src="../assets/screenshots/paperless-portainer-3.png" alt="Paperless-ngx 文档管理界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [mariushosting.com](https://mariushosting.com/)，见 [致谢](../../CREDITS.md)。
+
 ## 这一章讲什么
 
 第 10 章给了你一张应用地图，里面提到很多工具。其中有三个特别高频，值得单独展开：

@@ -173,6 +173,11 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 | `fnos-desktop.png` / `fnos-appstore.webp` | [Lycoris 的小破站](https://lycoris.cloud/archives/019eda7f-15b1-743e-9aab-d0ee8999b0a5) | © Lycoris，教学引用 |
 | `paperless-portainer-*.png`（3 张）/ `paperless-stack*.png`（2 张） | [Marius Hosting](https://mariushosting.com/how-to-install-paperless-ngx-on-your-synology-nas/) | © Marius Hosting，教学引用 |
 | `tailscale-*.jpg`（6 张：官网/密钥/容器配置/管理后台/连接成功） | [太平洋知科技（pconline）](https://zhikeji.pconline.com.cn/article/497454)、[少数派](https://sspai.com/post/78811) | © 各作者，教学引用 |
+| `casaos-desktop.jpg` | [CasaOS 官方仓库](https://github.com/IceWhaleTech/CasaOS) | © IceWhale，官方 README 截图 |
+| `immich-gallery.png` | [Immich 官方仓库](https://github.com/immich-app/immich) | © Immich 项目，官方 README 截图 |
+| `nextcloud-files.png` | [Nextcloud 官方仓库](https://github.com/nextcloud/server) | © Nextcloud，官方截图 |
+| `gitea-home.png` / `gitea-issues.png` | [Gitea 官方仓库](https://github.com/go-gitea/gitea) | © Gitea 项目，官方截图 |
+| `uptime-kuma.jpg` | [Uptime Kuma 官方仓库](https://github.com/louislam/uptime-kuma) | © louislam，官方 README 截图 |
 
 > 💡 我们尽量减少重复截图，每张图只在最相关的位置用一次。宁可少而准，不要多而乱。
 

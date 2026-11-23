@@ -6,6 +6,12 @@
 
 > ⏱ 大约 70 分钟 · 难度 ⭐⭐⭐⭐
 
+<p align="center">
+  <img src="../assets/screenshots/uptime-kuma.jpg" alt="Uptime Kuma 官方监控面板" width="480">
+</p>
+
+> 💡 真实界面截图来自 [github.com](https://github.com/louislam/uptime-kuma)，见 [致谢](../../CREDITS.md)。
+
 ## 什么时候该读这一章
 
 当你的 NAS 已经稳定运行，你开始冒出这些念头：

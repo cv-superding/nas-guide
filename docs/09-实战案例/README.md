@@ -6,6 +6,12 @@
 
 > ⏱ 按场景选读 · 难度 ⭐⭐⭐ · 要动手
 
+<p align="center">
+  <img src="../assets/screenshots/nextcloud-files.png" alt="Nextcloud 官方文件管理界面" width="480">
+</p>
+
+> 💡 真实界面截图来自 [github.com](https://github.com/nextcloud/server)，见 [致谢](../../CREDITS.md)。
+
 ## 这一章不一样
 
 前面八章，我们是一块一块地讲零件。这一章，我们把零件拼成四台完整的机器——或者说，四个完整的生活场景。

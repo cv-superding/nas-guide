@@ -6,6 +6,12 @@
 
 > ⏱ 大约 50 分钟 · 难度 ⭐⭐ · 建议开着购物网站对照读
 
+<p align="center">
+  <img src="../assets/screenshots/hardware-compare.webp" alt="常见 NAS 低功耗硬件方案对比" width="480">
+</p>
+
+> 💡 真实界面截图来自 [fnnas.wiki](https://fnnas.wiki/)，见 [致谢](../../CREDITS.md)。
+
 ## 先说个大实话
 
 大部分人配 NAS，最容易犯的错是——**CPU 买太好，硬盘买太差。**

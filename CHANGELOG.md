@@ -2,6 +2,15 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.6.6] - 2026-11-23
+
+### 新增（图片补全）
+- 新增 6 张来自 GitHub 官方仓库的真实界面截图：CasaOS 桌面、Immich 相册、Nextcloud 文件、Gitea（2 张）、Uptime Kuma
+- 10 个章节概览页补上最相关的真实截图并标注来源
+- 3.5/7.4/8.5/10.3 核心小节嵌入匹配的真实界面图
+- 6 个无合适真实截图的章节（前言/认识NAS/PVE/Homelab/数据保护进阶/视频博客）加"图片说明"，明确占位原因与替代方案
+- CREDITS 补全官方截图来源
+
 ## [0.6.5] - 2026-11-23
 
 ### 新增（视频内容二次提炼 · 平台选型）
@@ -125,7 +134,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.5...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.6...HEAD
+[0.6.6]: https://github.com/cv-superding/nas-guide/compare/v0.6.5...v0.6.6
 [0.6.5]: https://github.com/cv-superding/nas-guide/compare/v0.6.4...v0.6.5
 [0.6.4]: https://github.com/cv-superding/nas-guide/compare/v0.6.3...v0.6.4
 [0.6.3]: https://github.com/cv-superding/nas-guide/compare/v0.6.2...v0.6.3

@@ -6,6 +6,12 @@
 
 > ⏱ 大约 60 分钟 · 难度 ⭐⭐⭐
 
+<p align="center">
+  <img src="../assets/screenshots/tailscale-admin.jpg" alt="Tailscale 管理后台设备列表" width="480">
+</p>
+
+> 💡 真实界面截图来自 [zhikeji.pconline.com.cn](https://zhikeji.pconline.com.cn/)，见 [致谢](../../CREDITS.md)。
+
 ## 一个让人抓狂的场景
 
 NAS 装好了，照片也在里面。你兴冲冲地在公司打开手机，想给同事看一张孩子照片——**转了半天圈，打不开。**
