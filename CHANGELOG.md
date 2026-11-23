@@ -2,6 +2,12 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.5.1] - 2026-11-23
+
+### 新增
+- 引入 6 张 Tailscale 真实组网截图（官网、生成 auth key、容器配置、管理后台、连接成功），接入 6.2 远程访问章节
+- 来源：太平洋知科技全平台 NAS 组网教程、少数派远程控制教程，已在 CREDITS 标注
+
 ## [0.5.0] - 2026-11-23
 
 ### 变更（图片体系重构）
@@ -74,7 +80,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.5.1...HEAD
+[0.5.1]: https://github.com/cv-superding/nas-guide/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/cv-superding/nas-guide/compare/v0.4.1...v0.5.0
 [0.4.1]: https://github.com/cv-superding/nas-guide/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/cv-superding/nas-guide/compare/v0.3.0...v0.4.0

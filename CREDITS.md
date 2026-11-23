@@ -150,6 +150,7 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 | `hardware-compare.webp`（硬件方案对比） | [fnnas.wiki](https://fnnas.wiki/) | © fnnas.wiki 作者，教学引用 |
 | `fnos-desktop.png` / `fnos-appstore.webp` | [Lycoris 的小破站](https://lycoris.cloud/archives/019eda7f-15b1-743e-9aab-d0ee8999b0a5) | © Lycoris，教学引用 |
 | `paperless-portainer-*.png`（3 张）/ `paperless-stack*.png`（2 张） | [Marius Hosting](https://mariushosting.com/how-to-install-paperless-ngx-on-your-synology-nas/) | © Marius Hosting，教学引用 |
+| `tailscale-*.jpg`（6 张：官网/密钥/容器配置/管理后台/连接成功） | [太平洋知科技（pconline）](https://zhikeji.pconline.com.cn/article/497454)、[少数派](https://sspai.com/post/78811) | © 各作者，教学引用 |
 
 > 💡 我们尽量减少重复截图，每张图只在最相关的位置用一次。宁可少而准，不要多而乱。
 
