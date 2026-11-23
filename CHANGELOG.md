@@ -2,6 +2,15 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.7.0] - 2026-11-24
+
+### 新增（群晖截图 + 抓图工具化）
+- 从什么值得买群晖 DS920+ 万字教程抓真实 DSM 界面截图，精选 12 张入库（桌面/安装/存储池/套件中心/FileStation/Container Manager/相册/影音等）
+- 嵌入 3.2 群晖分论、2.4 硬件、5.2 存储、7.1/7.2/7.4 应用、4.2 安装、9.2 案例等图片偏少章节
+- 新增 `tools/fetch_doc_images.py`：把抓图能力固化成可复用工具，贡献者可用来扩充图片
+- 截图总数 58→70 张，70 张全部被引用
+- 探测了群晖知识中心/威联通/TrueNAS 文档站（均 JS 动态加载，暂无法直接抓取）
+
 ## [0.6.8] - 2026-11-23
 
 ### 新增（飞牛官方文档图片第二批）
@@ -150,7 +159,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.6.8...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.0...HEAD
+[0.7.0]: https://github.com/cv-superding/nas-guide/compare/v0.6.8...v0.7.0
 [0.6.8]: https://github.com/cv-superding/nas-guide/compare/v0.6.7...v0.6.8
 [0.6.7]: https://github.com/cv-superding/nas-guide/compare/v0.6.6...v0.6.7
 [0.6.6]: https://github.com/cv-superding/nas-guide/compare/v0.6.5...v0.6.6

@@ -2,6 +2,23 @@
 
 这里放本项目维护时用到的小工具。
 
+## fetch_doc_images.py —— 文档截图抓取
+
+本指南坚持"真实界面图优于凭空示意图"。这个工具从官方文档站批量提取真实截图，人工挑选后放进 `docs/assets/screenshots/`：
+
+```bash
+# 爬飞牛官方帮助中心（已知能抓到 170+ 张）
+python tools/fetch_doc_images.py --site fnnas --list-only
+
+# 抓任意教程页（如 smzdm/少数派）
+python tools/fetch_doc_images.py --url "https://post.smzdm.com/p/agq0p693/"
+
+# 下载（默认存到 fetched_images/）
+python tools/fetch_doc_images.py --site fnnas
+```
+
+> ⚠️ 抓到的图**必须人工筛选**（过滤 logo/二维码/广告），确认版权，精选与内容强相关的，并在正文标注来源。不要无脑入库。
+
 ## video_transcribe.py —— 视频转文字
 
 NAS 领域很多优质教程是 B 站视频。这个工具把视频转成带时间戳的中文文字稿，方便我们**提炼知识点、整理改写进指南**（而不是凭空编造视频内容）。
