@@ -2,6 +2,15 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.7.1] - 2026-11-24
+
+### 新增（图片覆盖继续补齐）
+- 从群晖教程后半段与 GitHub 官方仓库精选 7 张（SSH 终端、内网测速、权限配置、控制面板、filebrowser、Nginx Proxy Manager 等）
+- 嵌入 8.2/6.1/10.1/6.3/4.3/8.1 等小节
+- 对 11 PVE/12 Homelab/13 数据保护/15 视频博客做合理交叉引用（同一界面从不同角度说明）
+- 截图总数 70→77 张，全部被引用，838 个链接零失效
+- 所有内容章节现均有真实截图（00 前言为纯指引章节，保留占位说明）
+
 ## [0.7.0] - 2026-11-24
 
 ### 新增（群晖截图 + 抓图工具化）
@@ -159,7 +168,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.1...HEAD
+[0.7.1]: https://github.com/cv-superding/nas-guide/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/cv-superding/nas-guide/compare/v0.6.8...v0.7.0
 [0.6.8]: https://github.com/cv-superding/nas-guide/compare/v0.6.7...v0.6.8
 [0.6.7]: https://github.com/cv-superding/nas-guide/compare/v0.6.6...v0.6.7
