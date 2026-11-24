@@ -136,6 +136,14 @@
 - [15.2 CSDN 与博客精选](15-中文视频与博客/15.2-CSDN与博客.md)
 - [15.3 配合学习法](15-中文视频与博客/15.3-配合学习法.md)
 
+## 16 工具实战补充（进阶）
+
+- [16.0 本章概览](16-工具实战补充/README.md)
+- [16.1 AdGuard Home](16-工具实战补充/16.1-AdGuard-Home.md)
+- [16.2 filebrowser](16-工具实战补充/16.2-filebrowser.md)
+- [16.3 Gitea](16-工具实战补充/16.3-Gitea.md)
+- [16.4 Uptime Kuma](16-工具实战补充/16.4-Uptime-Kuma.md)
+
 ## 附录
 
 - [附录概览](附录/README.md)

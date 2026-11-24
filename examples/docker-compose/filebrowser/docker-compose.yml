@@ -1,0 +1,15 @@
+# filebrowser — 极简网页文件管理
+# 参考文档：docs/16-工具实战补充/16.2-filebrowser.md
+# ⚠️ 默认账号 admin/admin，登录后务必修改；建议配合 VPN/反代+HTTPS 访问
+version: "3.8"
+
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:latest
+    container_name: filebrowser
+    restart: unless-stopped
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/filebrowser/database.db:/database.db
+      - ${NAS_SHARE:-/volume1/共享}:/srv
+    ports:
+      - "8080:80"

@@ -2,6 +2,14 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.7.2] - 2026-11-24
+
+### 新增（第 16 章：工具实战补充）
+- 把第 10 章图谱里一笔带过的四个高频工具扩写成"安装+配置+实测"小节：AdGuard Home、filebrowser、Gitea、Uptime Kuma
+- 新增 3 个可运行 Compose 示例（adguardhome/filebrowser/gitea），全部通过 config 校验
+- 配 AdGuard 官方仪表盘截图，其余复用已有官方截图
+- 更新导航/SUMMARY/README/examples 清单/CREDITS
+
 ## [0.7.1] - 2026-11-24
 
 ### 新增（图片覆盖继续补齐）
@@ -168,7 +176,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.1...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.2...HEAD
+[0.7.2]: https://github.com/cv-superding/nas-guide/compare/v0.7.1...v0.7.2
 [0.7.1]: https://github.com/cv-superding/nas-guide/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/cv-superding/nas-guide/compare/v0.6.8...v0.7.0
 [0.6.8]: https://github.com/cv-superding/nas-guide/compare/v0.6.7...v0.6.8

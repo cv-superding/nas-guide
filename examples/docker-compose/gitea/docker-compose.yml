@@ -1,0 +1,20 @@
+# Gitea — 轻量自建 Git 服务
+# 参考文档：docs/16-工具实战补充/16.3-Gitea.md
+# /data 含所有仓库与配置，必须持久化并纳入备份
+version: "3.8"
+
+services:
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    restart: unless-stopped
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/gitea:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3000:3000"   # Web 界面
+      - "2222:22"     # SSH（避开宿主机 22 端口）

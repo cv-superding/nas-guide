@@ -1,0 +1,18 @@
+# AdGuard Home — 网络级 DNS 广告过滤
+# 参考文档：docs/16-工具实战补充/16.1-AdGuard-Home.md
+# ⚠️ 53 端口可能和 NAS 自带 DNS 服务冲突，冲突时先关闭系统 DNS
+version: "3.8"
+
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: adguardhome
+    restart: unless-stopped
+    volumes:
+      - ${NAS_DATA:-/volume1/docker}/adguard/work:/opt/adguardhome/work
+      - ${NAS_DATA:-/volume1/docker}/adguard/conf:/opt/adguardhome/conf
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "3000:3000/tcp"   # 初始设置向导
+      - "80:80/tcp"       # 管理界面

@@ -176,6 +176,7 @@ CasaOS、飞牛 fnOS、TrueNAS、Nextcloud、Immich、Jellyfin、qBittorrent、T
 | `tailscale-*.jpg`（6 张：官网/密钥/容器配置/管理后台/连接成功） | [太平洋知科技（pconline）](https://zhikeji.pconline.com.cn/article/497454)、[少数派](https://sspai.com/post/78811) | © 各作者，教学引用 |
 | `dsm-*.png`（群晖 DSM 桌面/安装/存储/套件中心/FileStation/Docker/相册/SSH/权限/控制面板等 16 张）、`synology-ds920-hardware.jpg` | [什么值得买：群晖 DS920+ 保姆级教程](https://post.smzdm.com/p/agq0p693/) | © 作者，教学引用 |
 | `filebrowser.png` | [filebrowser 官方仓库](https://github.com/filebrowser/filebrowser) | © filebrowser 项目，官方截图 |
+| `adguard-home.png` | [AdGuard Home 官方仓库](https://github.com/AdguardTeam/AdGuardHome) | © AdGuard，官方仪表盘截图 |
 | `casaos-desktop.jpg` | [CasaOS 官方仓库](https://github.com/IceWhaleTech/CasaOS) | © IceWhale，官方 README 截图 |
 | `immich-gallery.png` | [Immich 官方仓库](https://github.com/immich-app/immich) | © Immich 项目，官方 README 截图 |
 | `nextcloud-files.png` | [Nextcloud 官方仓库](https://github.com/nextcloud/server) | © Nextcloud，官方截图 |

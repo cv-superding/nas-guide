@@ -24,7 +24,10 @@ examples/
 │   ├── vaultwarden/         # 密码管理
 │   ├── portainer/           # 容器图形化管理
 │   ├── home-assistant/      # 智能家居中枢
-│   └── paperless-ngx/       # 文档 OCR 归档
+│   ├── paperless-ngx/       # 文档 OCR 归档
+│   ├── adguardhome/         # DNS 广告过滤
+│   ├── filebrowser/         # 极简文件管理
+│   └── gitea/               # 轻量代码托管
 ├── scripts/
 │   ├── disk-health-check.sh # 硬盘体检
 │   └── backup-restic.sh     # 自动备份
