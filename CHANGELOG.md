@@ -2,6 +2,14 @@
 
 本项目所有重要变更都会记录在此文件中。格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.7.3] - 2026-11-26
+
+### 修复（结构一致性）
+- 补齐第 10～16 章共 7 个配套练习文件（此前只有 00～09 章有练习）
+- 更新 exercises 索引表与进度表至 16 章
+- 一致性审计：章节 / 练习 / 导航 / SUMMARY 现已完全对齐
+- 882 个链接零失效
+
 ## [0.7.2] - 2026-11-24
 
 ### 新增（第 16 章：工具实战补充）
@@ -176,7 +184,8 @@
 - 建立 Issue / PR 模板与文档站点配置
 - 发布贡献指南、行为准则、安全政策与免责声明
 
-[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.2...HEAD
+[Unreleased]: https://github.com/cv-superding/nas-guide/compare/v0.7.3...HEAD
+[0.7.3]: https://github.com/cv-superding/nas-guide/compare/v0.7.2...v0.7.3
 [0.7.2]: https://github.com/cv-superding/nas-guide/compare/v0.7.1...v0.7.2
 [0.7.1]: https://github.com/cv-superding/nas-guide/compare/v0.7.0...v0.7.1
 [0.7.0]: https://github.com/cv-superding/nas-guide/compare/v0.6.8...v0.7.0
